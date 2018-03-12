@@ -8,8 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.tehtava.kirjakauppa.bean.Book;
-import com.tehtava.kirjakauppa.bean.BookRepository;
+import com.tehtava.kirjakauppa.domain.Book;
+import com.tehtava.kirjakauppa.domain.BookRepository;
 
 @SpringBootApplication
 public class KirjakauppaApplication {
